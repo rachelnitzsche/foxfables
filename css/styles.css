@@ -23,6 +23,10 @@
 	display: inline-block;
 	height: 50px;
 }
+::selection {
+	color: none;
+	background: none;
+}
 
 #photos {
 	width: 1000px;

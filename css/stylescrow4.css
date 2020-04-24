@@ -18,6 +18,10 @@
 	margin-top: 10px;
 	width: 400px;
 }
+::selection {
+	color: none;
+	background: none;
+}
 
 .menuitem {
 	display: inline-block;

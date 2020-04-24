@@ -293,7 +293,10 @@ input.progress[value]::-webkit-slider-thumb {
 -ms-transform: scale(-1, 1);
 transform: scale(-1, 1);
 }
-
+::selection {
+	color: none;
+	background: none;
+}
 
 
 

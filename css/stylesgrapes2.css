@@ -27,6 +27,10 @@
 #photos {
 	width: 1000px;
 }
+::selection {
+	color: none;
+	background: none;
+}
 
 img {
 	width: 1000px;

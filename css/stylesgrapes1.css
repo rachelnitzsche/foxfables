@@ -18,6 +18,10 @@
 	width: 400px;
 	margin-top: 70px;
 }
+::selection {
+	color: none;
+	background: none;
+}
 
 #submenu {
 	margin-top: 10px;
