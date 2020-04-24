@@ -143,6 +143,7 @@ background-image: url("../images/all/leftarrow.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: .8;
+	margin-bottom: -20px;
 
 }
 
