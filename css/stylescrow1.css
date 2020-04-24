@@ -207,7 +207,7 @@ img.pages {
 }
 
 #rotatep2 {
-	transform: rotate(10deg);
+	transform: rotate(90deg);
 }
 
 input.progress {
