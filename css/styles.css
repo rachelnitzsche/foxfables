@@ -118,6 +118,26 @@ h1 {
 
 }
 
+.colophon {
+
+	background-image: url("../images/all/infobook.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	height: 40px;
+	width: 40px;
+	left: 3%;
+	bottom: 5%;
+	z-index: 990;
+	position: absolute;
+	transition: .3s;
+}
+
+.colophon:hover {
+	transform: scale(1.08);
+	transition: .3s;
+}
+
 img.pages {
 	width: 1100px;
 	mix-blend-mode: normal;
