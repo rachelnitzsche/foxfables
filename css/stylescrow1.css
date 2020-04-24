@@ -143,7 +143,6 @@ background-image: url("../images/all/leftarrow.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: .8;
-	margin-bottom: -20px;
 
 }
 
@@ -199,38 +198,25 @@ img.pages {
   width: 210px;
 }
 
-.foxhider {
-	width: 300px;
-	height: 450px;
-	/*border: 1px solid red;*/
-	position: relative;
-	z-index: 18;
-	top: 125px;
-	left: 100px;
-	overflow: hidden;
-}
 
-.foxbite {
+.crowfly {
   pointer-events: none;
   position: absolute;
-  left: 20px;
-  top: 425px;
+  right: 40px;
+  top: 30px;
+  z-index: 50;
 }
 
-#foxbiting {
-	width: 250px;
+#crowflying {
+	width: 125px;
 	mix-blend-mode: normal;
+	
 }
 
 
-
-#rotatep2 {
-	transform: rotate(90deg);
-
-}
 
 input.progress {
-  cursor: ns-resize;
+  cursor: ew-resize;
 }
 
 input.progress[value] {
@@ -260,7 +246,7 @@ input.progress[value]::-webkit-slider-thumb {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
-  width: 130px;
+  width: 150px;
   height: 92px;
 }
 
@@ -272,22 +258,20 @@ input.progress[value]::-webkit-slider-thumb {
     text-align: center;
     width: 200px;
     height: 90px;
-    left: 20px;
+    left: -100px;
    
 }
 
 #sliderhider {
 	
 	width: 200px;
-	height: 130px;
+	height: 100px;
 	position: relative;
 	left: 900px;
 	z-index: 30;
-	top: 157px;
-    left: 220px;
+	top: 150px;
+    left: 1025px;
     overflow: hidden;
-   /*border: 1px solid red;*/
-
 }
 
 .controls {

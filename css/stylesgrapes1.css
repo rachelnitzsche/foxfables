@@ -206,9 +206,7 @@ img.pages {
 	width: 250px;
 }
 
-#rotatep2 {
-	transform: rotate(10deg);
-}
+
 
 input.progress {
   cursor: ew-resize;

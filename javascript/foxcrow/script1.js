@@ -1,6 +1,7 @@
 var animation = anime({
-  targets: '.foxbite',
-  translateY: -250,
+  targets: '.crowfly',
+  translateY: 100,
+  translateX: -200,
   elasticity: 200,
   easing: 'linear',
   autoplay: false
