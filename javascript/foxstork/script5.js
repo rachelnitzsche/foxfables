@@ -1,6 +1,6 @@
 var animation = anime({
-  targets: '.foxwalkaway',
-  translateX: 500,
+  targets: '.storkhead',
+  translateX: -10,
   elasticity: 200,
   easing: 'linear',
   autoplay: false

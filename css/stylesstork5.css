@@ -199,20 +199,18 @@ img.pages {
 }
 
 
-.foxwalkaway {
+.storkhead {
   pointer-events: none;
-  position: relative;
-  left: 240px;
-  top: 405px;
-  z-index: 18;
-  width: 200px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 30;
 }
 
-
-#foxwalking {
-	
+#headmove {
+	width: 1100px;
 	mix-blend-mode: normal;
-	width: 250px;
+	
 }
 
 
@@ -261,19 +259,22 @@ input.progress[value]::-webkit-slider-thumb {
     width: 200px;
     height: 90px;
     left: -100px;
+    top: -100px;
+   
 }
 
-
+#rotatep2 {
+	transform: rotate(180deg);
+}
 
 #sliderhider {
 	
 	width: 200px;
 	height: 100px;
 	position: relative;
-	left: 900px;
 	z-index: 30;
-	top: 300px;
-    left: 1025px;
+	top: 450px;
+    left: -125px;
     overflow: hidden;
 }
 
@@ -292,7 +293,6 @@ input.progress[value]::-webkit-slider-thumb {
 -ms-transform: scale(-1, 1);
 transform: scale(-1, 1);
 }
-
 ::selection {
 	color: none;
 	background: none;
