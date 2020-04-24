@@ -192,7 +192,7 @@ img.pages {
   width: 250px;
 }
 
-.foxwalk {
+.crowfly {
   pointer-events: none;
   position: relative;
   left: 400px;
@@ -200,7 +200,7 @@ img.pages {
   z-index: 18;
 }
 
-#foxwalking {
+#crowflying {
 	
 	mix-blend-mode: normal;
 	width: 250px;
